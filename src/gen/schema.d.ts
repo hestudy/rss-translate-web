@@ -4,1147 +4,1147 @@
  */
 
 export interface paths {
-    "/api/v1/rss-items": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["RssItemsController_findAll_v1"];
-        put?: never;
-        post: operations["RssItemsController_create_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+  '/api/v1/rss-items': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/rss-items/{id}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["RssItemsController_findById_v1"];
-        put?: never;
-        post?: never;
-        delete: operations["RssItemsController_remove_v1"];
-        options?: never;
-        head?: never;
-        patch: operations["RssItemsController_update_v1"];
-        trace?: never;
+    get: operations['RssItemsController_findAll_v1'];
+    put?: never;
+    post: operations['RssItemsController_create_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/rss-items/{id}': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/rss-origins": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["RssOriginsController_findAll_v1"];
-        put?: never;
-        post: operations["RssOriginsController_create_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations['RssItemsController_findById_v1'];
+    put?: never;
+    post?: never;
+    delete: operations['RssItemsController_remove_v1'];
+    options?: never;
+    head?: never;
+    patch: operations['RssItemsController_update_v1'];
+    trace?: never;
+  };
+  '/api/v1/rss-origins': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/rss-origins/test": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["RssOriginsController_test_v1"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations['RssOriginsController_findAll_v1'];
+    put?: never;
+    post: operations['RssOriginsController_create_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/rss-origins/test': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/rss-origins/{id}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["RssOriginsController_findById_v1"];
-        put?: never;
-        post?: never;
-        delete: operations["RssOriginsController_remove_v1"];
-        options?: never;
-        head?: never;
-        patch: operations["RssOriginsController_update_v1"];
-        trace?: never;
+    get: operations['RssOriginsController_test_v1'];
+    put?: never;
+    post?: never;
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/rss-origins/{id}': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/users": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["UsersController_findAll_v1"];
-        put?: never;
-        post: operations["UsersController_create_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations['RssOriginsController_findById_v1'];
+    put?: never;
+    post?: never;
+    delete: operations['RssOriginsController_remove_v1'];
+    options?: never;
+    head?: never;
+    patch: operations['RssOriginsController_update_v1'];
+    trace?: never;
+  };
+  '/api/v1/users': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/users/{id}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["UsersController_findOne_v1"];
-        put?: never;
-        post?: never;
-        delete: operations["UsersController_remove_v1"];
-        options?: never;
-        head?: never;
-        patch: operations["UsersController_update_v1"];
-        trace?: never;
+    get: operations['UsersController_findAll_v1'];
+    put?: never;
+    post: operations['UsersController_create_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/users/{id}': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/files/upload": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["FilesLocalController_uploadFile_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations['UsersController_findOne_v1'];
+    put?: never;
+    post?: never;
+    delete: operations['UsersController_remove_v1'];
+    options?: never;
+    head?: never;
+    patch: operations['UsersController_update_v1'];
+    trace?: never;
+  };
+  '/api/v1/files/upload': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/email/login": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_login_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['FilesLocalController_uploadFile_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/email/login': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/email/register": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_register_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_login_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/email/register': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/email/confirm": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_confirmEmail_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_register_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/email/confirm': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/email/confirm/new": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_confirmNewEmail_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_confirmEmail_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/email/confirm/new': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/forgot/password": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_forgotPassword_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_confirmNewEmail_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/forgot/password': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/reset/password": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_resetPassword_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_forgotPassword_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/reset/password': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/me": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["AuthController_me_v1"];
-        put?: never;
-        post?: never;
-        delete: operations["AuthController_delete_v1"];
-        options?: never;
-        head?: never;
-        patch: operations["AuthController_update_v1"];
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_resetPassword_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/me': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/refresh": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_refresh_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations['AuthController_me_v1'];
+    put?: never;
+    post?: never;
+    delete: operations['AuthController_delete_v1'];
+    options?: never;
+    head?: never;
+    patch: operations['AuthController_update_v1'];
+    trace?: never;
+  };
+  '/api/v1/auth/refresh': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/v1/auth/logout": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get?: never;
-        put?: never;
-        post: operations["AuthController_logout_v1"];
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_refresh_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/v1/auth/logout': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["HomeController_appInfo"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get?: never;
+    put?: never;
+    post: operations['AuthController_logout_v1'];
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    "/api/rss/{id}": {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        get: operations["RssController_rss"];
-        put?: never;
-        post?: never;
-        delete?: never;
-        options?: never;
-        head?: never;
-        patch?: never;
-        trace?: never;
+    get: operations['HomeController_appInfo'];
+    put?: never;
+    post?: never;
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
+  '/api/rss/{id}': {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
+    get: operations['RssController_rss'];
+    put?: never;
+    post?: never;
+    delete?: never;
+    options?: never;
+    head?: never;
+    patch?: never;
+    trace?: never;
+  };
 }
 export type webhooks = Record<string, never>;
 export interface components {
-    schemas: {
-        RssOriginDto: {
-            id: string;
-        };
-        CreateRssItemDto: {
-            /** Format: date-time */
-            pubDate?: string;
-            rssOrigin: components["schemas"]["RssOriginDto"];
-            data: Record<string, never>;
-            content?: string;
-            title?: string;
-            url: string;
-        };
-        RssOrigin: {
-            job: string | null;
-            data: Record<string, never> | null;
-            items: string[] | null;
-            url: string;
-            id: string;
-            /** Format: date-time */
-            createdAt: string;
-            /** Format: date-time */
-            updatedAt: string;
-        };
-        RssItem: {
-            /** Format: date-time */
-            pubDate: string | null;
-            rssOrigin: components["schemas"]["RssOrigin"];
-            data: Record<string, never>;
-            content: string | null;
-            title: string | null;
-            url: string;
-            id: string;
-            /** Format: date-time */
-            createdAt: string;
-            /** Format: date-time */
-            updatedAt: string;
-        };
-        InfinityPaginationRssItemResponseDto: {
-            data: components["schemas"]["RssItem"][];
-            /** @example true */
-            hasNextPage: boolean;
-        };
-        UpdateRssItemDto: {
-            /** Format: date-time */
-            pubDate?: string;
-            rssOrigin?: components["schemas"]["RssOriginDto"];
-            data?: Record<string, never>;
-            content?: string;
-            title?: string;
-            url?: string;
-        };
-        CreateRssOriginDto: {
-            job?: string;
-            data?: Record<string, never>;
-            url: string;
-        };
-        InfinityPaginationRssOriginResponseDto: {
-            data: components["schemas"]["RssOrigin"][];
-            /** @example true */
-            hasNextPage: boolean;
-        };
-        UpdateRssOriginDto: {
-            job?: string;
-            data?: Record<string, never>;
-            url?: string;
-        };
-        FileDto: {
-            id: string;
-        };
-        RoleDto: {
-            id: Record<string, never>;
-        };
-        StatusDto: {
-            id: Record<string, never>;
-        };
-        CreateUserDto: {
-            /** @example test1@example.com */
-            email: string;
-            password: string;
-            /** @example John */
-            firstName: string;
-            /** @example Doe */
-            lastName: string;
-            photo?: components["schemas"]["FileDto"];
-            role?: components["schemas"]["RoleDto"];
-            status?: components["schemas"]["StatusDto"];
-        };
-        FileType: {
-            /** @example cbcfa8b8-3a25-4adb-a9c6-e325f0d0f3ae */
-            id: string;
-            /** @example https://example.com/path/to/file.jpg */
-            path: string;
-        };
-        Role: {
-            id: number;
-            /** @example admin */
-            name: string;
-        };
-        Status: {
-            id: number;
-            /** @example active */
-            name: string;
-        };
-        User: {
-            id: number;
-            /** @example john.doe@example.com */
-            email: string;
-            /** @example email */
-            provider: string;
-            /** @example 1234567890 */
-            socialId: string;
-            /** @example John */
-            firstName: string;
-            /** @example Doe */
-            lastName: string;
-            photo: components["schemas"]["FileType"];
-            role: components["schemas"]["Role"];
-            status: components["schemas"]["Status"];
-            /** Format: date-time */
-            createdAt: string;
-            /** Format: date-time */
-            updatedAt: string;
-            /** Format: date-time */
-            deletedAt: string;
-        };
-        InfinityPaginationUserResponseDto: {
-            data: components["schemas"]["User"][];
-            /** @example true */
-            hasNextPage: boolean;
-        };
-        UpdateUserDto: {
-            /** @example test1@example.com */
-            email?: string;
-            password?: string;
-            /** @example John */
-            firstName?: string;
-            /** @example Doe */
-            lastName?: string;
-            photo?: components["schemas"]["FileDto"];
-            role?: components["schemas"]["RoleDto"];
-            status?: components["schemas"]["StatusDto"];
-        };
-        FileResponseDto: {
-            file: components["schemas"]["FileType"];
-        };
-        AuthEmailLoginDto: {
-            /** @example test1@example.com */
-            email: string;
-            password: string;
-        };
-        LoginResponseDto: {
-            token: string;
-            refreshToken: string;
-            tokenExpires: number;
-            user: components["schemas"]["User"];
-        };
-        AuthRegisterLoginDto: {
-            /** @example test1@example.com */
-            email: string;
-            password: string;
-            /** @example John */
-            firstName: string;
-            /** @example Doe */
-            lastName: string;
-        };
-        AuthConfirmEmailDto: {
-            hash: string;
-        };
-        AuthForgotPasswordDto: {
-            /** @example test1@example.com */
-            email: string;
-        };
-        AuthResetPasswordDto: {
-            password: string;
-            hash: string;
-        };
-        RefreshResponseDto: {
-            token: string;
-            refreshToken: string;
-            tokenExpires: number;
-        };
-        AuthUpdateDto: {
-            photo?: components["schemas"]["FileDto"];
-            /** @example John */
-            firstName?: string;
-            /** @example Doe */
-            lastName?: string;
-            /** @example new.email@example.com */
-            email?: string;
-            password?: string;
-            oldPassword?: string;
-        };
+  schemas: {
+    RssOriginDto: {
+      id: string;
     };
-    responses: never;
-    parameters: never;
-    requestBodies: never;
-    headers: never;
-    pathItems: never;
+    CreateRssItemDto: {
+      /** Format: date-time */
+      pubDate?: string;
+      rssOrigin: components['schemas']['RssOriginDto'];
+      data: Record<string, never>;
+      content?: string;
+      title?: string;
+      url: string;
+    };
+    RssOrigin: {
+      job: string | null;
+      data: Record<string, never> | null;
+      items: string[] | null;
+      url: string;
+      id: string;
+      /** Format: date-time */
+      createdAt: string;
+      /** Format: date-time */
+      updatedAt: string;
+    };
+    RssItem: {
+      /** Format: date-time */
+      pubDate: string | null;
+      rssOrigin: components['schemas']['RssOrigin'];
+      data: Record<string, never>;
+      content: string | null;
+      title: string | null;
+      url: string;
+      id: string;
+      /** Format: date-time */
+      createdAt: string;
+      /** Format: date-time */
+      updatedAt: string;
+    };
+    InfinityPaginationRssItemResponseDto: {
+      data: components['schemas']['RssItem'][];
+      /** @example true */
+      hasNextPage: boolean;
+    };
+    UpdateRssItemDto: {
+      /** Format: date-time */
+      pubDate?: string;
+      rssOrigin?: components['schemas']['RssOriginDto'];
+      data?: Record<string, never>;
+      content?: string;
+      title?: string;
+      url?: string;
+    };
+    CreateRssOriginDto: {
+      job?: string;
+      data?: Record<string, never>;
+      url: string;
+    };
+    InfinityPaginationRssOriginResponseDto: {
+      data: components['schemas']['RssOrigin'][];
+      /** @example true */
+      hasNextPage: boolean;
+    };
+    UpdateRssOriginDto: {
+      job?: string;
+      data?: Record<string, never>;
+      url?: string;
+    };
+    FileDto: {
+      id: string;
+    };
+    RoleDto: {
+      id: Record<string, never>;
+    };
+    StatusDto: {
+      id: Record<string, never>;
+    };
+    CreateUserDto: {
+      /** @example test1@example.com */
+      email: string;
+      password: string;
+      /** @example John */
+      firstName: string;
+      /** @example Doe */
+      lastName: string;
+      photo?: components['schemas']['FileDto'];
+      role?: components['schemas']['RoleDto'];
+      status?: components['schemas']['StatusDto'];
+    };
+    FileType: {
+      /** @example cbcfa8b8-3a25-4adb-a9c6-e325f0d0f3ae */
+      id: string;
+      /** @example https://example.com/path/to/file.jpg */
+      path: string;
+    };
+    Role: {
+      id: number;
+      /** @example admin */
+      name: string;
+    };
+    Status: {
+      id: number;
+      /** @example active */
+      name: string;
+    };
+    User: {
+      id: number;
+      /** @example john.doe@example.com */
+      email: string;
+      /** @example email */
+      provider: string;
+      /** @example 1234567890 */
+      socialId: string;
+      /** @example John */
+      firstName: string;
+      /** @example Doe */
+      lastName: string;
+      photo: components['schemas']['FileType'];
+      role: components['schemas']['Role'];
+      status: components['schemas']['Status'];
+      /** Format: date-time */
+      createdAt: string;
+      /** Format: date-time */
+      updatedAt: string;
+      /** Format: date-time */
+      deletedAt: string;
+    };
+    InfinityPaginationUserResponseDto: {
+      data: components['schemas']['User'][];
+      /** @example true */
+      hasNextPage: boolean;
+    };
+    UpdateUserDto: {
+      /** @example test1@example.com */
+      email?: string;
+      password?: string;
+      /** @example John */
+      firstName?: string;
+      /** @example Doe */
+      lastName?: string;
+      photo?: components['schemas']['FileDto'];
+      role?: components['schemas']['RoleDto'];
+      status?: components['schemas']['StatusDto'];
+    };
+    FileResponseDto: {
+      file: components['schemas']['FileType'];
+    };
+    AuthEmailLoginDto: {
+      /** @example test1@example.com */
+      email: string;
+      password: string;
+    };
+    LoginResponseDto: {
+      token: string;
+      refreshToken: string;
+      tokenExpires: number;
+      user: components['schemas']['User'];
+    };
+    AuthRegisterLoginDto: {
+      /** @example test1@example.com */
+      email: string;
+      password: string;
+      /** @example John */
+      firstName: string;
+      /** @example Doe */
+      lastName: string;
+    };
+    AuthConfirmEmailDto: {
+      hash: string;
+    };
+    AuthForgotPasswordDto: {
+      /** @example test1@example.com */
+      email: string;
+    };
+    AuthResetPasswordDto: {
+      password: string;
+      hash: string;
+    };
+    RefreshResponseDto: {
+      token: string;
+      refreshToken: string;
+      tokenExpires: number;
+    };
+    AuthUpdateDto: {
+      photo?: components['schemas']['FileDto'];
+      /** @example John */
+      firstName?: string;
+      /** @example Doe */
+      lastName?: string;
+      /** @example new.email@example.com */
+      email?: string;
+      password?: string;
+      oldPassword?: string;
+    };
+  };
+  responses: never;
+  parameters: never;
+  requestBodies: never;
+  headers: never;
+  pathItems: never;
 }
 export type $defs = Record<string, never>;
 export interface operations {
-    RssItemsController_findAll_v1: {
-        parameters: {
-            query?: {
-                page?: number;
-                limit?: number;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["InfinityPaginationRssItemResponseDto"];
-                };
-            };
-        };
+  RssItemsController_findAll_v1: {
+    parameters: {
+      query?: {
+        page?: number;
+        limit?: number;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    RssItemsController_create_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["CreateRssItemDto"];
-            };
+        content: {
+          'application/json': components['schemas']['InfinityPaginationRssItemResponseDto'];
         };
-        responses: {
-            201: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RssItem"];
-                };
-            };
-        };
+      };
     };
-    RssItemsController_findById_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RssItem"];
-                };
-            };
-        };
+  };
+  RssItemsController_create_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    RssItemsController_remove_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['CreateRssItemDto'];
+      };
     };
-    RssItemsController_update_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
+    responses: {
+      201: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["UpdateRssItemDto"];
-            };
+        content: {
+          'application/json': components['schemas']['RssItem'];
         };
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RssItem"];
-                };
-            };
-        };
+      };
     };
-    RssOriginsController_findAll_v1: {
-        parameters: {
-            query?: {
-                page?: number;
-                limit?: number;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["InfinityPaginationRssOriginResponseDto"];
-                };
-            };
-        };
+  };
+  RssItemsController_findById_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
     };
-    RssOriginsController_create_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["CreateRssOriginDto"];
-            };
+        content: {
+          'application/json': components['schemas']['RssItem'];
         };
-        responses: {
-            201: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RssOrigin"];
-                };
-            };
-        };
+      };
     };
-    RssOriginsController_test_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+  };
+  RssItemsController_remove_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
     };
-    RssOriginsController_findById_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RssOrigin"];
-                };
-            };
-        };
+        content?: never;
+      };
     };
-    RssOriginsController_remove_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+  };
+  RssItemsController_update_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
     };
-    RssOriginsController_update_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["UpdateRssOriginDto"];
-            };
-        };
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RssOrigin"];
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['UpdateRssItemDto'];
+      };
     };
-    UsersController_findAll_v1: {
-        parameters: {
-            query?: {
-                page?: number;
-                limit?: number;
-                filters?: string;
-                sort?: string;
-            };
-            header?: never;
-            path?: never;
-            cookie?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["InfinityPaginationUserResponseDto"];
-                };
-            };
+        content: {
+          'application/json': components['schemas']['RssItem'];
         };
+      };
     };
-    UsersController_create_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["CreateUserDto"];
-            };
-        };
-        responses: {
-            201: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["User"];
-                };
-            };
-        };
+  };
+  RssOriginsController_findAll_v1: {
+    parameters: {
+      query?: {
+        page?: number;
+        limit?: number;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    UsersController_findOne_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["User"];
-                };
-            };
+        content: {
+          'application/json': components['schemas']['InfinityPaginationRssOriginResponseDto'];
         };
+      };
     };
-    UsersController_remove_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+  };
+  RssOriginsController_create_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    UsersController_update_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["UpdateUserDto"];
-            };
-        };
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["User"];
-                };
-            };
-        };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['CreateRssOriginDto'];
+      };
     };
-    FilesLocalController_uploadFile_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    responses: {
+      201: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "multipart/form-data": {
-                    /** Format: binary */
-                    file?: string;
-                };
-            };
+        content: {
+          'application/json': components['schemas']['RssOrigin'];
         };
-        responses: {
-            201: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["FileResponseDto"];
-                };
-            };
-        };
+      };
     };
-    AuthController_login_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthEmailLoginDto"];
-            };
-        };
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["LoginResponseDto"];
-                };
-            };
-        };
+  };
+  RssOriginsController_test_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    AuthController_register_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthRegisterLoginDto"];
-            };
-        };
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+        content?: never;
+      };
     };
-    AuthController_confirmEmail_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthConfirmEmailDto"];
-            };
-        };
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+  };
+  RssOriginsController_findById_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
     };
-    AuthController_confirmNewEmail_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthConfirmEmailDto"];
-            };
+        content: {
+          'application/json': components['schemas']['RssOrigin'];
         };
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+      };
     };
-    AuthController_forgotPassword_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthForgotPasswordDto"];
-            };
-        };
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+  };
+  RssOriginsController_remove_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
     };
-    AuthController_resetPassword_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthResetPasswordDto"];
-            };
-        };
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+        content?: never;
+      };
     };
-    AuthController_me_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["User"];
-                };
-            };
-        };
+  };
+  RssOriginsController_update_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
     };
-    AuthController_delete_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['UpdateRssOriginDto'];
+      };
     };
-    AuthController_update_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody: {
-            content: {
-                "application/json": components["schemas"]["AuthUpdateDto"];
-            };
+        content: {
+          'application/json': components['schemas']['RssOrigin'];
         };
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["User"];
-                };
-            };
-        };
+      };
     };
-    AuthController_refresh_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content: {
-                    "application/json": components["schemas"]["RefreshResponseDto"];
-                };
-            };
-        };
+  };
+  UsersController_findAll_v1: {
+    parameters: {
+      query?: {
+        page?: number;
+        limit?: number;
+        filters?: string;
+        sort?: string;
+      };
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    AuthController_logout_v1: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
         };
-        requestBody?: never;
-        responses: {
-            204: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
+        content: {
+          'application/json': components['schemas']['InfinityPaginationUserResponseDto'];
         };
+      };
     };
-    HomeController_appInfo: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path?: never;
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+  };
+  UsersController_create_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
     };
-    RssController_rss: {
-        parameters: {
-            query?: never;
-            header?: never;
-            path: {
-                id: string;
-            };
-            cookie?: never;
-        };
-        requestBody?: never;
-        responses: {
-            200: {
-                headers: {
-                    [name: string]: unknown;
-                };
-                content?: never;
-            };
-        };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['CreateUserDto'];
+      };
     };
+    responses: {
+      201: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['User'];
+        };
+      };
+    };
+  };
+  UsersController_findOne_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['User'];
+        };
+      };
+    };
+  };
+  UsersController_remove_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  UsersController_update_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['UpdateUserDto'];
+      };
+    };
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['User'];
+        };
+      };
+    };
+  };
+  FilesLocalController_uploadFile_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'multipart/form-data': {
+          /** Format: binary */
+          file?: string;
+        };
+      };
+    };
+    responses: {
+      201: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['FileResponseDto'];
+        };
+      };
+    };
+  };
+  AuthController_login_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthEmailLoginDto'];
+      };
+    };
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['LoginResponseDto'];
+        };
+      };
+    };
+  };
+  AuthController_register_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthRegisterLoginDto'];
+      };
+    };
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  AuthController_confirmEmail_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthConfirmEmailDto'];
+      };
+    };
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  AuthController_confirmNewEmail_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthConfirmEmailDto'];
+      };
+    };
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  AuthController_forgotPassword_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthForgotPasswordDto'];
+      };
+    };
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  AuthController_resetPassword_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthResetPasswordDto'];
+      };
+    };
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  AuthController_me_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['User'];
+        };
+      };
+    };
+  };
+  AuthController_delete_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  AuthController_update_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody: {
+      content: {
+        'application/json': components['schemas']['AuthUpdateDto'];
+      };
+    };
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['User'];
+        };
+      };
+    };
+  };
+  AuthController_refresh_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content: {
+          'application/json': components['schemas']['RefreshResponseDto'];
+        };
+      };
+    };
+  };
+  AuthController_logout_v1: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      204: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  HomeController_appInfo: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path?: never;
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
+  RssController_rss: {
+    parameters: {
+      query?: never;
+      header?: never;
+      path: {
+        id: string;
+      };
+      cookie?: never;
+    };
+    requestBody?: never;
+    responses: {
+      200: {
+        headers: {
+          [name: string]: unknown;
+        };
+        content?: never;
+      };
+    };
+  };
 }
