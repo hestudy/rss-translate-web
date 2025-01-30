@@ -1,0 +1,33 @@
+{
+  "name": "rss-translate-web",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview",
+    "gen": "openapi-typescript https://rss-translate.api.hestudy.cn/docs-json -o ./src/gen/schema.d.ts"
+  },
+  "dependencies": {
+    "@tanstack/react-router": "^1.98.3",
+    "@tanstack/router-devtools": "^1.98.3",
+    "openapi-fetch": "^0.13.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@rsbuild/core": "^1.1.8",
+    "@rsbuild/plugin-react": "^1.0.7",
+    "@tailwindcss/postcss": "^4.0.1",
+    "@tanstack/router-plugin": "^1.98.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "daisyui": "5.0.0-beta.5",
+    "openapi-typescript": "^7.6.0",
+    "tailwindcss": "^4.0.1",
+    "typescript": "^5.7.2"
+  }
+}
